@@ -1,0 +1,14 @@
+{
+  "title": "Test",
+  "category": "accounting",
+  "tabs": [
+    {
+      "tab_title": "Membuat",
+      "body": "# asdsadas\n\nasadasdad"
+    },
+    {
+      "tab_title": "Mengedit",
+      "body": "asdasfadasds"
+    }
+  ]
+}
