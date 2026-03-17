@@ -1,0 +1,4 @@
+[build]
+  # Perintah ini memberitahu Netlify: 
+  # "Jangan build jika perubahan HANYA terjadi di folder data atau uploads"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':!manuals_data' ':!assets/images/uploads'"
