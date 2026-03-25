@@ -5,6 +5,10 @@
     {
       "tab_title": "Membuat Server AWS",
       "body": "1. Launch instance \n\n    EC2 → Instances → klik Launch Instance \n2. Beri nama server \n3. Pilih OS Ubuntu Server 18.04 LTS \n\n   ![](/assets/images/uploads/setup-server-aws/t11.png)\n\n\n4. Pilih instance type t3.medium \n5. Buat key pair \n\n    Klik create new key pair → Beri nama → klik Create → Simpan sesuai dengan kebijakan backup \n\n   ![](/assets/images/uploads/setup-server-aws/t12.png)\n6. Atur network settings \n\n   • Centang Allow HTTP traffic from the internet\n\n   • Centang Allow HTTPS traffic from the internet \n\n   ![](/assets/images/uploads/setup-server-aws/t13.png)\n7. Ubah besar storage sesuai kebutuhan server \n8. **Konek melalui SSH** \n\n   ```\n    $ sudo ssh -i < private_key.pem > ubuntu@< IP >\n   ```\n\n\n\n   <div class=\"callout callout-warning\"><h4>Perhatian</h4><p>* Permission private key harus 600 atau 400 </p></div>"
+    },
+    {
+      "tab_title": "Membuat Server GCP",
+      "body": " Berikut adalah langkah-langkah dalam membuat server GCP. \n\n1. Create Instance \n\n    Compute Engine → klik Create Instances \n2. Beri nama server\n3. Pilih region dan zone\n4. Pilih series E2 dan machine type medium\n\n   ![](/assets/images/uploads/setup-server-aws/t21.png)\n5. Ubah boot disk sesuai kebutuhan\n\n   * Pilih operating system Ubuntu\n   * Pilih version Ubuntu 18.04 LTS x86/64\n   * Isi size sesuai kebutuhan \n\n     ![](/assets/images/uploads/setup-server-aws/t22.png)\n6. Konfigurasi firewall\n\n   * Centang allow HTTP traffic\n   * Centang allow HTTPS traffic \n7. Konek melalui GCP COnsole \n\n    Compute engine → Pilih Instance → Klik SSH"
     }
   ],
   "last_edited_by": "Wawan"
