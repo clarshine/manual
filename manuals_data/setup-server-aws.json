@@ -1,0 +1,11 @@
+{
+  "title": "Setup Server AWS",
+  "category": "Special Utility/Server",
+  "tabs": [
+    {
+      "tab_title": "Membuat Server AWS",
+      "body": "1. Launch instance \n\n    EC2 → Instances → klik Launch Instance \n2. Beri nama server \n3. Pilih OS Ubuntu Server 18.04 LTS \n\n   ![](/assets/images/uploads/setup-server-aws/t11.png)\n\n\n4. Pilih instance type t3.medium \n5. Buat key pair \n\n    Klik create new key pair → Beri nama → klik Create → Simpan sesuai dengan kebijakan backup \n\n   ![](/assets/images/uploads/setup-server-aws/t12.png)\n6. Atur network settings \n\n   • Centang Allow HTTP traffic from the internet\n\n   • Centang Allow HTTPS traffic from the internet \n\n   ![](/assets/images/uploads/setup-server-aws/t13.png)\n7. Ubah besar storage sesuai kebutuhan server \n8. **Konek melalui SSH** \n\n   ```\n    $ sudo ssh -i < private_key.pem > ubuntu@< IP >\n   ```\n\n\n\n   <div class=\"callout callout-warning\"><h4>Perhatian</h4><p>* Permission private key harus 600 atau 400 </p></div>"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
