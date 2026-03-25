@@ -1,0 +1,23 @@
+{
+  "title": "AWS S3",
+  "category": "Special Utility/Maintenance",
+  "tabs": [
+    {
+      "tab_title": "Membuat Bucket S3",
+      "body": "Berikut adalah langkah-langkah membuat bucket S3 pada AWS Server : \n\n1. Login ke AWS Console, Lalu masuk ke halaman S3\n2. Pilih Menu Buckets, Lalu klik tombol Create Bucket\n\n   ![](/assets/images/uploads/aws-s3/pertama.png)\n3. Sesuaikan Isi Kolom-kolom berikut:\n\n   • Bucket name diisi dengan nama yang unik secara global \n\n   • AWS region disamakan dengan region instance EC2 yang diinginkan\n\n   • Bucket versioning dimatikan jika tidak perlu menyimpan versi-versi objek yang sama\n\n   • Default encryption dipasang menggunakan default key AWS S3 \n4. Klik Tombol Create Bucket"
+    },
+    {
+      "tab_title": "Menginstal AWS CLI",
+      "body": " Berikut adalah langkah-langkah menginstal AWS CLI: \n\n1. Login ke server yang diinginkan, lalu instal AWS CLI dengan perintah berikut: \n\n   ```\n   $ curl \"https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip\" -o \"awscliv2.zip\"\n\n   $ unzip awscliv2.zip\n\n   $ sudo ./aws/install \n   ```\n2. Periksa versi AWS CLI untuk memastikan instalasi sudah berhasil \n\n   ```\n    $ sudo aws –version \n   ```"
+    },
+    {
+      "tab_title": "Membuat IAM Role",
+      "body": " Berikut adalah langkah-langkah membuat IAM Role : \n\n1. Login ke AWS Console, lalu masuk ke halaman IAM \n2. Pilih menu Roles, lalu klik tombol Create Role \n\n   ![](/assets/images/uploads/aws-s3/untitled.png)\n3. Pilih trusted entity AWS service dan use case EC2 \n\n   ![](/assets/images/uploads/aws-s3/untitled2.png)\n4. Pasang permission policy AmazonS3FullAccess \n\n   ![](/assets/images/uploads/aws-s3/untitled3.png)\n5. Setelah role dibuat, masuk ke halaman EC2 dan pilih menu Instances \n6. Pilih instance yang ingin mengakses S3, lalu klik tombol Actions \n7. Klik Security, lalu Modify IAM Role \n\n   ![](/assets/images/uploads/aws-s3/untitled4.png)\n8. Pilih IAM role yang baru dibuat, lalu klik Save \n\n   ![](/assets/images/uploads/aws-s3/untitled5.png)"
+    },
+    {
+      "tab_title": "Case Error Upload File ke S3",
+      "body": "Jika file-file tidak berhasil disalin ke S3, pastikan terlebih dahulu:\n\n  a) Role IAM pada server memiliki otorisasi yang cukup\n\n  b) AWS CLI sudah berhasil diinstal pada server\n\n  c) Variabel-variabel dalam script sudah sesuai\n\n  d) Permission script sudah 777\n\n  e) Cron menjalankan script menggunakan sudo \n\n Jika tidak ada yang salah, coba lakukan cara-cara berikut: \n\n **Gunakan Access Key** \n\n1. Login ke AWS Console, lalu masuk ke halaman IAM \n2. Pilih menu Users, lalu klik tombol Add Users \n\n   ![](/assets/images/uploads/aws-s3/t41.png)\n3. Beri nama user, lalu klik Next \n4. Pada bagian Permission Option, pilih Attach policies directly, lalu tambah Policy AmazonS3FullAccess \n\n   ![](/assets/images/uploads/aws-s3/t42.png)\n\n   ![](/assets/images/uploads/aws-s3/t43.png)\n5. Klik Next, lalu klik Create User\n6. Kembali ke menu Users, lalu pilih usesr yang baru dibuat\n7. Klik tab Security Credentials, lalu klik Create Access Key \n\n   ![](/assets/images/uploads/aws-s3/t44.png)\n8. Pada bagian best practices & alternatives, pilih Command Line Interface (CLI) \n\n   ![](/assets/images/uploads/aws-s3/t45.png)\n9. Centang pernyataan di bawah peringatan tersebut, lalu klik Next\n10. Isi deskripsi seperlunya dan klik Create Access Key \n11. Download file CSV yang disediakan dan upload ke home directory server sebagai backup\n12. Login ke server, lalu pasang AWS profile dengan perintah berikut:\n\n    ```\n    $ sudo aws configure\n    ```\n\n\n13. Isi AWS Acess Key ID & AWS Secret Acess Key sesuai dengan access key yang sudah dibuat \n14. Isi default region name dengan nama region server, contohnya ap-southeast 3 untuk region Jakarta \n15. Isi default output format dengan json"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
