@@ -13,6 +13,10 @@
     {
       "tab_title": "Memasang SSL untuk Webmin",
       "body": "## Memasang SSL Untuk Webmin\n\n1. **Login ke Webmin server sebagai root**\n2. **Pilih menu Webmin, lalu klik Webmin Configuration**\n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t31.png)\n3. **Pilih SSL Encryption** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t32.png)\n4. **Pada opsi Enable SSL, pilih yes** \n5. **Pastikan rujukan private key file dan certificate file sudah sesuai dengan lokasi file masing-masing** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t33.png)\n6. **Restart Webmin**\n\n   $ Sudo systemctl restart webmin.service"
+    },
+    {
+      "tab_title": "Memindahkan SSL antar Server",
+      "body": "## Memindahkan SSL Antar Server\n\n1. **Download & upload 3 file berikut dari server lama ke server baru:**\n\n   * **Certificate file (server_larona_id.crt) di direktori /etc/ssl**\n   * **CA bundle (server_larona_id.ca-bundle) di direktori /etc/ssl**\n   * **Private key (private.key) di direktori /etc/ssl/private**\n2. **Edit file /etc/apache2/sites-available/default-ssl.conf atau file lain yang memiliki direktif SSL, lalu pastikan tiga direktif berikut aktif dan merujuk ke file-file SSL yang benar:**\n\n   * **SSLCertificateFile**\n   * **SSLCertificateKeyFile**\n   * **SSLCertificateChainFile** \n\n     ![](/assets/images/uploads/pasang-ssl-certificate/t41.png)\n   * **Restart MySQL server**"
     }
   ],
   "last_edited_by": "Wawan"
