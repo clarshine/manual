@@ -1,0 +1,11 @@
+{
+  "title": "Pasang SSL Certificate",
+  "category": "Special Utility/Server",
+  "tabs": [
+    {
+      "tab_title": "SSL Server cPanel (Punch Salad)",
+      "body": "## Memasang SSL Untuk Server cPanel (PunchSalad)\n\n1. **Buka link berikut pada browser: https://punchsalad.com/ssl-certificate-generator/**\n2. **Lengkapi form yang tersedia** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t11.png)\n3. **Download file yang disediakan**\n4. **Login ke GoDaddy, lalu masuk halaman My Products** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t12.png)\n5. **Pada bagian Web Hosting, klik tombol Manage pada server yang diinginkan** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t13.png)\n6. **Masuk ke cPanel Admin** \n7. **Pada menu File Manager, upload file yang sebelumnya didownload ke direktori → public_html/.well-known/acme-challenge** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t14.png)\n8. **Lakukan step 3 yang tertera pada halaman punchsalad. Jika sudah berhasil, klik tombol Verify Domain** \n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t15.png)\n9. **Masuk ke menu SSL/TLS pada cPanel Admin, lalu klik tombol manage SSL sites**\n\n   ![](/assets/images/uploads/pasang-ssl-certificate/t16.png)\n10. **Pilih domain larona.id. Salin sertifikat pertama pada file CRT + CA bundle dari PunchSalad di bagian Certificate: (CRT)** \n\n    ![](/assets/images/uploads/pasang-ssl-certificate/t17.png)\n11. **Salin dua sertifikat di bawahnya di bagian Certificate Authority Bundle: (CABUNDLE)** \n\n    ![](/assets/images/uploads/pasang-ssl-certificate/t18.png)\n12. **Salin private key di bagian Private Key (KEY)**\n\n    ![](/assets/images/uploads/pasang-ssl-certificate/t19.png)\n13. **Klik tombol Install Certificate**"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
