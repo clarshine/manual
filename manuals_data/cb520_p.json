@@ -1,10 +1,10 @@
 {
   "category": "Report/LPX/Layout Lpx ",
-  "title": "CB520_P",
+  "title": "CB520_R",
   "tabs": [
     {
-      "tab_title": "CB520_P",
-      "body": "<iframe src=\"https://larona.id/manual/Report/contoh_report/CB520P_LPX.html\" width=\"100%\" height=\"500\" title=\"Deskripsi Halaman\" style=\"border: none;\"></iframe>"
+      "tab_title": "CB520_R",
+      "body": "<iframe src=\"https://larona.id/manual/Report/contoh_report/CB520R_LPX.html\" width=\"100%\" height=\"500\" title=\"Deskripsi Halaman\" style=\"border: none;\"></iframe>"
     }
   ],
   "last_edited_by": "Wawan"
