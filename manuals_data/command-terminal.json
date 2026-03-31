@@ -8,7 +8,7 @@
     },
     {
       "tab_title": "Database",
-      "body": "1.  Connect to mysql \n\n   ```\n    mysql -u [user] -p \n   ```\n2.  Backup database \n\n   * ignore table(s)\n3. Restore database \n\n   * with another database structure & data \n   * with another database structure only \n4. Copy table from another database \n5. Print query for certain tables/columns (from information_schema) \n6. Get (estimate) sum of database records \n7. Get each table size of a database \n8. Change database collation \n\n   * with query \n9. Check database collation"
+      "body": "1.  Connect to mysql \n\n   ```\n    mysql -u [user] -p \n   ```\n2.  Backup database \n\n   ```\n    mysqldump -u [user] -p [db_name] > path/to/file.sql \n   ```\n\n     Contoh : mysqldump -u root -p database1 > /media/data/BU/database1.sql\n\n   * ignore table(s)\n\n     ```\n      mysqldump -u [user] -p [db_name] --ignore-table=[db_name].[table1]--ignore-table=[db_name].[table2] > path/to/file.sql \n     ```\n3. Restore database \n\n   * with another database structure & data \n   * with another database structure only \n4. Copy table from another database \n5. Print query for certain tables/columns (from information_schema) \n6. Get (estimate) sum of database records \n7. Get each table size of a database \n8. Change database collation \n\n   * with query \n9. Check database collation"
     }
   ],
   "last_edited_by": "Wawan"
