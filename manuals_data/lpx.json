@@ -16,6 +16,10 @@
     {
       "tab_title": "Garis Vertikal LPX",
       "body": " **Garis Vertikal (PR400)**\n\nBerikut adalah cara untuk menghasilkan garis-garis vertikal pembatas seperti yang terlihat dalam contoh employee tax report berikut: \n\n![](/assets/images/uploads/lpx/t41.png)\n\nBerikut langkah-langkah menggambar garis :\n\n\n\n1. Buat row dengan type = 50 beserta xrow yang akan menjadi titik ujung garis pertama. \n\n![](/assets/images/uploads/lpx/t42.png)\n\n\n\n\n\n2. Buat row dengan type = 60 beserta xrow yang akan menjadi titik ujung garis kedua.\n\n\n\n3. Tepat setelah row dengan type = 60, buat row dengan type = 85 yang akan menggambar garis yang membentang dari ujung ke ujung titik yang sudah dibuat sebelumnya. \n\n![](/assets/images/uploads/lpx/t43.png)\n\n4. Gunakan kolom \"group\" untuk menandakan garis yang berbeda.\n\n\n\nBerikut contoh hasilnya: \n\n![](/assets/images/uploads/lpx/t44.png)"
+    },
+    {
+      "body": " **Menampilkan total per**\n\n\n\n1. Pada Report untuk memunculkan total per grup : \n\n![](/assets/images/uploads/lpx/t51.png)\n\n• Kolom yang akan di jumlah harus di isi:\n\n\\- Col untuk menunjukan column yang akan dijumlahkan\n\n\\- totcd diisi 1 untuk menjumlahkan field tersebut\n\n• Menggunakan RowId dengan akhiran 9. Pada contoh Rowid yang digunakan adalah '39'\n\n• TypeX = 10 mengartikan pada RowId 39 ini berisi total dari description\n\n• Type = 10 mengartikan tidak ganti baris, maka total akan dimunculkan pada baris yang sama dengan row sebelumnya\n\n\n\n2. Dari Lpx di atas maka akan muncul hasil seperti berikut: \n\n![](/assets/images/uploads/lpx/t52.png)",
+      "tab_title": "Total Per"
     }
   ],
   "title": "LPX",
