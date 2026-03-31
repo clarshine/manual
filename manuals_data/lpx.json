@@ -32,6 +32,10 @@
     {
       "tab_title": "LTX",
       "body": "LTX terdiri dari kolom-kolom yang dipisahkan tab untuk mengatur hasil report bank transfer output. LTX berbentuk TXT file yang dibuat dan diedit pada code editor. \n\n Baris pertama menentukan format output LTX yaitu txt atau csv. Jika formatnya txt, maka langsung dilanjutkan dengan simbol yang akan digunakan sebagai pemisah data. Berikut keterangan masing-masing kolom LTX:\n\n\\    • Kolom 1: \tBerisi 1 huruf yang menandakan identitas bagian laporan\n\n\t\th → Header (muncul sekali di baris pertama)\n\n\t\td → Detail (muncul untuk setiap data yang berlaku)\n\n\t\tz → Footer/total (muncul sekali di baris terakhir)\n\n\\    • Kolom 2: \tPosisi awal karakter. Berawal dari 0, posisi selanjutnya = kolom 2 + 3 baris sebelumnya\n\n\\    • Kolom 3: \tPanjang maksimal karakter/huruf dari text/field\n\n\\    • Kolom 4: \tMenampilkan desimal pada angka\n\n\\    • Kolom 5: \tFormat kolom\n\n\t\tS =\n\n\t\tR = Right adjusted\n\n\t\tT = Text\n\n\t\tZ = Zero leading and hide stripe (untuk NPWP)\n\n\\    • Kolom 6: \tIsian yang akan muncul. Gunakan tanda @ untuk memanggil variabel. Gunakan tanda + ' ' untuk menampilkan string diantara variabel\n\nVariabel untuk memunculkan nomor urut = @s_seqno\n\nBerikut contoh isi LTX\n\n![](/assets/images/uploads/lpx/t81.png)\n\nBerikut hasilnya\n\n![](/assets/images/uploads/lpx/t82.png)"
+    },
+    {
+      "tab_title": "Case",
+      "body": "A. Menambahkan komponen ditengah LPX\n\nMenambahkan : previous nett income dan previous tax payment (pr400)\n\n1. Gunakan type 31 (awal) & type 32 (akhir) untuk kondisi \n\n![](/assets/images/uploads/lpx/t91.png)\n\n2. Perhatikan rowid yang digunakan\n\n3. Perhatikan Pgnlen Lpx dan Lpxz nya jika komponen tidak muncul\n\n**Output**\n\n![](/assets/images/uploads/lpx/t92.png)"
     }
   ],
   "title": "LPX",
