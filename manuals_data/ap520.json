@@ -4,7 +4,7 @@
   "tabs": [
     {
       "tab_title": "AP520",
-      "body": "Cobas\n\n<iframe src=\"https://larona.id/manual/Report/contoh_report/AR520_LPX.html\" width=\"100%\" height=\"500\" title=\"Deskripsi Halaman\" style=\"border: none;\"></iframe>"
+      "body": "<iframe src=\"https://larona.id/manual/Report/contoh_report/AR520_LPX.html\" width=\"100%\" height=\"500\" title=\"Deskripsi Halaman\" style=\"border: none;\"></iframe>"
     }
   ],
   "last_edited_by": "Wawan"
