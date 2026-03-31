@@ -1,0 +1,11 @@
+{
+  "title": "Install MySQL di Windows",
+  "category": "External/External",
+  "tabs": [
+    {
+      "tab_title": "Download MySQL di Windows",
+      "body": "1. Buka website resmi MySQL dan klik menu ”Download” atau klik link berikut: https://www.mysql.com/downloads/. Scroll ke bawah hingga tampil link “MySQL Community (GPL) Downloads”, lalu klik.\n\n![](https://larona.id/manual/external/mysqlSetup/mysql-win-setup.jpg)\n\nPilih “MySQL Installer for Windows” lalu download salah satu file installernya. Installer yang berukuran lebih kecil membutuhkan koneksi internet pada tahap instalisasinya.\n\n![](https://larona.id/manual/external/mysqlSetup/mysql-win-setup-1.png)\n\nPada halaman berikutnya, langsung saja scroll ke bawah dan klik “No thanks, just start my download.”. Jalankan program installernya.\n\n2. Ada beberapa tipe setup yang tersedia:\n\na. “Developer Default” akan menginstall produk-produk berikut:\n\n\\- MySQL Shell\n\nMySQL Router\n\nMySQL Workbench\n\nMySQL for Visual Studio\n\nMySQL Connectors (for .NET / Python / ODBC / Java / C++)\n\nMySQL Documentation\n\nMySQL Samples andExamples\n\n“Server only” hanya akan menginstall MySQL Server menggunakan directory data default.\n\n“Client only” hanya akan menginstall aplikasi dan konektor MySQL yang paling baru. Tipe ini mirip tipe “Developer Default” tanpa MySQL Server dan program-program client yang tersangkut.\n\n“Full” akan menginstall semua produk MySQL yang tersedia.\n\n“Custom” memungkinkan client untuk memilih produk-produk yang ingin diinstall sendiri."
+    }
+  ],
+  "last_edited_by": "Claresta"
+}
