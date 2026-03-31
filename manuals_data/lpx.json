@@ -20,6 +20,10 @@
     {
       "body": " **Menampilkan total per**\n\n\n\n1. Pada Report untuk memunculkan total per grup : \n\n![](/assets/images/uploads/lpx/t51.png)\n\n• Kolom yang akan di jumlah harus di isi:\n\n\\- Col untuk menunjukan column yang akan dijumlahkan\n\n\\- totcd diisi 1 untuk menjumlahkan field tersebut\n\n• Menggunakan RowId dengan akhiran 9. Pada contoh Rowid yang digunakan adalah '39'\n\n• TypeX = 10 mengartikan pada RowId 39 ini berisi total dari description\n\n• Type = 10 mengartikan tidak ganti baris, maka total akan dimunculkan pada baris yang sama dengan row sebelumnya\n\n\n\n2. Dari Lpx di atas maka akan muncul hasil seperti berikut: \n\n![](/assets/images/uploads/lpx/t52.png)",
       "tab_title": "Total Per"
+    },
+    {
+      "tab_title": "LPX Tambahan",
+      "body": "Dalam sebuah file LPX kita dapat memasukkan LPX khusus yang berfungsi sebagai informasi tambahan.\n\nFile tambahan bisa berbentuk .Lpx maupun .Lpxz yang umumnya tidak dapat berdiri sendiri dan hanya bisa digunakan melalui pemanggilan di dalam file lpx utama. File tambahan ini masih dapat diedit layaknya file lpx melalui menu Support → Lpx List/Printer's spool. File tambahan wajib menggunakan type = 88.\n\n![](/assets/images/uploads/lpx/t61.png)\n\nPada file .Lpxz (contoh file: PR406_Note_inspira.Lpxz). Type 63 & 64: Digunakan di awal row ID. Berfungsi mengatur posisi row ID agar tidak berlanjut ke bawah tetapi mengambil posisi baru menjadi kolom baru. Lalu Baris kedua berfungsi untuk mengatur posisi awal. \n\n![](/assets/images/uploads/lpx/t62.png)\n\n **Output** \n\n![](/assets/images/uploads/lpx/t63.png)\n\n **Contoh 2 :** \n\n![](/assets/images/uploads/lpx/t64.png)\n\nPaylip diatas terdiri dari 3 file:\n\n• File utama yang berisi payslip\n\n• File tax calculation\n\n• File time record\n\n\n\nContoh penggunaan:\n\nPada file Lpx payslip, tambahkan 2 baris berikut: \n\n![](/assets/images/uploads/lpx/t65.png)"
     }
   ],
   "title": "LPX",
