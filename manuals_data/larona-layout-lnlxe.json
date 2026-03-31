@@ -1,0 +1,11 @@
+{
+  "category": "Report/LPX",
+  "title": "Larona Layout (LnLxe)",
+  "tabs": [
+    {
+      "body": "Program ini digunakan untuk melihat secara detail informasi mengenai struktur laporan suatu program. Untuk mengakses program tersebut, klik menu Support > Larona Layout. Akan muncul halaman seperti berikut:\n\n![](/assets/images/uploads/larona-layout-lnlxe/lnlxe_1.png)\n\nIsi kolom Program no. dengan nama program yang ingin diselidiki, lalu isi kolom Continue dengan huruf Y. Sesudah itu, klik Ok agar tampil informasinya seperti ini:\n\n![](/assets/images/uploads/larona-layout-lnlxe/lnlxe_2.png)\n\nsqn \t: \tUrutan barisan\n\nProwNo \t: \tRow Id baris untuk menentukan bagian bagian laporan (%@LW_prowno_1000@@... LW_prowno_1000@%)\n\nJudul \t: \tJudul field yang ditampilkan\n\nField \t: \tNama field di database",
+      "tab_title": "Larona Layout (LnLxe)"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
