@@ -1,0 +1,15 @@
+{
+  "category": "Report/LPX",
+  "title": " LPX Variable ",
+  "tabs": [
+    {
+      "tab_title": "Program Accounting",
+      "body": " Pub_Modul C2 // tuk login\n\nPub_Dir C66\n\nPub_Register C66\n\nPub_Logo C66\n\n\n\nPub_Company C66\n\nPub_Adr1\n\nPub_Adr2\n\nPub_Adr3\n\n\n\nPub_yrFrom\n\nPub_yrTo\n\nPub_year\n\nPub_per\n\nPub_from\n\nPub_to\n\n\n\nPub_period\n\nPub_perDes\n\nPub_perName\n\nPub_perNum\n\nPub_perAlpha\n\nPub_curncd\n\n\n\nPub_Login\n\nPub_User\n\nPub_WSID\n\n\n\nPub_ImgExt\n\n\n\nPub_eMail_C\n\nPub_eMail\n\nPub_eMail_S\n\nPub_eMail_P\n\n\n\nGL_year\n\nGL_per\n\nGL_from\n\nGL_to\n\n\n\nGL_perDescr\n\nGL_perName\n\nGL_yearDescr\n\nGL_yrFrom\n\nGL_yrTo\n\nGL_Loc\n\n\n\nAP520_PaymentRequest.Lpx\n\ndigunakan untuk menyiapkan pembayaran kepada supplier, Approval box, untuk diperiksa oleh penerima jasa, bagian pembelian sebagai bukti setuju dibayar. Payment method, diisi dengan nama bank dan no.AC penerima, diambil dari master supplier Note, merupakan kotak yang akan diisi dengan Cash-Bank no. +date, no.Cheque /transfer\n\n\n\nAR521_csv.Lpx\n\ndigunakan untuk membuat file surat pesanan dalam bentuk .csv, untuk dikirimkan lewat email kemudian di upload ke Pusat.\n\n\n\nGL410 General Ledger\n\ns_normalx = pengali normalisasi\n\ns_begin =\n\ns_amtdr\n\ns_normal * (s_begin +s_amtdr -s_amtcr)\n\n\n\nGrand Total:\n\np.Id = 888\n\nLR_begin\n\nLR_amtDr\n\nLR_amtCr\n\n\n\nPO400, PO status report\n\ns_qty qty PO\n\ns_amt\n\ns_hrg\n\ns_qfak qty Receiving\n\ns_afak amt\n\ns_hfak hrg\n\ns_qbal qty saldo\n\ns_abal amt\n\ns_hbal hrg\n\n\n\nP.id = 10, baris header PO,\n\n\\= 11, baris detail PO, sebelum baca receiving\n\n\\= 13, baris detail PO, dengan Receiving (GR)\n\n\\= 14, baris detail PO, tanpa Receiving (GR)"
+    },
+    {
+      "tab_title": "Program Payroll",
+      "body": "Payroll Report.\n\nSecara umum laporan diatur dengan beberapa urutan:\n\n1. Loc, Dept, Jabat & Emp.no.\n\npublic variables:\n\ndiambil dari pr002a\n\nPR_year\n\nPR_per\n\nPR_perDescr\n\nPR_perName\n\nPR_zper : M 3\n\nPR_zper0 : M03 periode dalam numeric\n\n\n\nPR_curncd\n\nPR_loc\n\n\n\nPR_dsSlip\n\nPR_pertype : M monthly\n\nPR_from\n\nPR_to\n\nPR_payDate : tgl. pembayaran gaji\n\n\n\nPR_Ktype\n\n\n\nPR_Signer\n\nPR_Signer2\n\nPR_Signerx\n\nPR_Signerx2\n\nPR_Verify\n\nPR_Verify2\n\nPR_Prepare\n\nPR_Prepare2\n\n\n\nPX_NPWP\n\nPX_Lokasi\n\nPX_TgSPT\n\n\n\ndiambil dari ps002a\n\nPS_from\n\nPS_to\n\nPS_perName\n\nPS_perDescr"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
