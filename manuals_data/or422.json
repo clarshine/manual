@@ -8,7 +8,7 @@
     },
     {
       "tab_title": "Penjelasan",
-      "body": "**OR400-Client**\n\nReport OR400-Client menampilkan time record berdasarkan client, dapat dilihat secara detail maupun summarynya.\n\nPenjelasan HTM\n\n`%@LW_P`Field_today()@%\n\n**_today()** merupakan variabel untuk menampilkan tanggal cetak report.\n\n`%@LW_PField_tr_minute@N3,N,10,1@%`\n\nLW\\_PField\\_\\[nama field]@\\[tipe-panjang karakter],\\[tipe data],\\[kode kolom yang ingin ditotal (bebas asal konsisten)],\\[penanda total]\n\n`%@LW_PField__Ltot_10@N3,N@%`\n\nLtot_ harus diikuti dengan nomor yang sesuai dengan kode kolom pada PField sebelumnya. Untuk grand total harus menggunakan Gtot dan bukan Ltot.\n\n`%@LW_vars@prn_pglen=20;prn_yLine=22;prn_sort(asc)=tr_client+tr_empno+tr_date LW_vars@%`\n\n**prn_pglen=20;prn_yLine=22** perintah untuk mencetak sejumlah 20 \n\npada setiap halaman.\n\n**prn_sort(asc)=tr_client+tr_empno+tr_date** perintah untuk mencetak secara ascending \n\nberdasarkan urutan client lalu empno lalu date.\n\n`%@LW_PRow_add@1@%`\n\nberfungsi untuk mencetak halaman baru, setelah pglen terpenuhi\n\n`%@LW_PField__page@%`\n\n**__page** berfungsi untuk mencetak halaman\n\n`%@colom@d_Rec='Y'@`\n\n`colom@%`\n\nSebuah kondisi, Jika field d_Rec=Y maka seluruh isi yang berada pada tag colom akan tercetak.\n\n`%@LW_prowno_10@d_Rec='Y'@@`\n\n**@d_Rec='Y'**  Jika d_Rec=Y maka isi pada tag prowno akan tercetak.\n\nJika d_Rec!=Y maka isi pada tag prowno tetap dijalankan tetapi tidak dicetak."
+      "body": "progress"
     },
     {
       "tab_title": "Output Report",
