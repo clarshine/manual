@@ -1,0 +1,11 @@
+{
+  "category": "Report/Tb_Report/Layout Html",
+  "title": "Autocomplete",
+  "tabs": [
+    {
+      "tab_title": "Autocomplete",
+      "body": "Langkah pertama yang harus dilakukan untuk membuat fitur autocomplete adalah membuat file yang didalamnya terdapat perintah untuk memanggil tabel di database menjadi javascript array dalam 1 tabel dan disimpan didalam folder “menu”. Pada contoh ini file tersebut adalah arraypo500.htm.\n\n![](https://larona.id/manual/Report/autocomplete_1.png)\n\nKemudian di dalam file arraypo500.htm masukkan perintah untuk memanggil tabel di database.\n\n![](https://larona.id/manual/Report/autocomplete_2.png)\n\nPenjelasan dari code diatas:\n\nvar <varname> = [%@LW\\_array\\_<table_name>.inx@<colA>,<colB>,...@%];\n\nSetelah itu, pada file htm menu utama, tambahkan code berikut sebelum tag </html> untuk memanggil file yang sudah dibuat sebelumnya.\n\n![](https://larona.id/manual/Report/autocomplete_3.png)\n\nPenjelasan dari code diatas:\n\nvar <varname> = [%@LW\\_array\\_<table_name>.inx@<colA>,<colB>,...@%];\n\nPerintah diatas akan menghasilkan file .js berisi array yang didefinisikan pada langkah pertama, jika <destination dir> dikosongkan, file array.js akan berada di dalam folder sesi dan disarankan untuk dikosongkan saja.\n\nLalu, buat fungsi untuk mentrigger fitur autocompletenya.\n\n![](https://larona.id/manual/Report/autocomplete_4.png)\n\nPada contoh ini fitur autocomplete akan muncul pada bagian input dengan id itemid.\n\n![](https://larona.id/manual/Report/autocomplete_5.png)\n\n![](https://larona.id/manual/Report/autocomplete_6.png)\n\nSetelah langkah diatas selesai, maka fitur autocomplete sudah selesai dibuat.\n\nLakukan test apakah autocomplete bekerja. Jika tidak kemungkinan file javascript array tidak terpanggil, untuk mengatasi hal ini buat code seperti gambar di bawah di dalam tag <script>"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
