@@ -1,0 +1,11 @@
+{
+  "category": "Report/Tb_Report_Acc",
+  "title": "Tb_Report_Acc",
+  "tabs": [
+    {
+      "body": "User Report adalah fasilitas untuk membuat laporan yang sesuai dengan keperluan user, terdiri dari:\n\n1. tb_report, untuk membuat layout\n\n2. report, untuk menjalankan\n\nselain dari database, sistem dapat mengambil variable khusus melalui fungsi yang tersedia seperti:\n\ncontoh :       @%GLR_Var(MP, s_per, s_perto)\n\nvariable yang dapat diambil:\n\nPB period beginning\n\nPE period ending\n\nMP movement period\n\nMY\n\nBPA budget period A\n\nBYA akum. budget A\n\nuntuk membuat laporan neraca diperlukan PE\n\nincome statement MP, merupakan mutasi",
+      "tab_title": "User Report "
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
