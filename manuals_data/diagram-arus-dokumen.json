@@ -4,7 +4,7 @@
   "tabs": [
     {
       "tab_title": "Bagan Arus Flowchart",
-      "body": "<iframe src=\"https://larona.id/manual/Accounting/Flowchart.pdf\" width=\"100%\" height=\"600px\">\n\n\\    Browser Anda tidak mendukung pratinjau PDF. \n\n\\    <a href=\"path/ke/file_anda.pdf\">Klik di sini untuk mengunduh PDF</a>.\n\n</iframe>"
+      "body": "<iframe src=\"https://larona.id/manual/Accounting/Flowchart.pdf\" width=\"100%\" height=\"600px\">\n\n\\    Browser Anda tidak mendukung pratinjau PDF. \n\n\\    <a href=\"https://larona.id/manual/Accounting/Flowchart.pdf\">Klik di sini untuk mengunduh PDF</a>.\n\n</iframe>"
     }
   ],
   "last_edited_by": "Wawan"
