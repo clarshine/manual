@@ -1,0 +1,15 @@
+{
+  "title": "GL600 Display General Ledger",
+  "category": "Accounting/Journal/Budget",
+  "tabs": [
+    {
+      "tab_title": "GL600 Display General Ledger",
+      "body": "Program ini digunakan untuk melihat transaksi-transaksi pada setiap account dalam periode 1 bulan\n\nJournal → Display General Ledger\n\n![](https://larona.id/manual/Accounting/GL600_101.png)\n\nLangkah-langkah :\n\n1. Ketik no account atau double click pada kolom di bawah tombol \\[read]\n\n![](https://larona.id/manual/Accounting/GL600_102.png)\n\n2. Pilih periode bulan yang diinginkan\n\n![](https://larona.id/manual/Accounting/GL600_103.png)\n\n3. Klik tombol \\[read] maka akan muncul detail transaksi-transaksinya\n\n![](https://larona.id/manual/Accounting/GL600_104.png)\n\n4. Apabila mau melihat periode yang lain, pilih periodenya dan klik tombol \\[modify].\n\nJika yang mau dilihat adalah no account yang lain, ulangi langkah dari no. 1\n\n![](https://larona.id/manual/Accounting/GL600_105.png)\n\n5. Untuk melihat transaksi account sebelum atau selanjutnya dari account yang sedang aktif, klik tombol \\[TrxPrev] atau \\[TrxNext]\n\n![](https://larona.id/manual/Accounting/GL600_106.png)"
+    },
+    {
+      "tab_title": "Case",
+      "body": "Case : Transaksi tidak muncul di general ledger\n\nContoh transaksi bulan Agustus yang sudah diinput :\n\n![](https://larona.id/manual/Accounting/GL600_1.png)\n\nPada saat dilihat akun 111202 di display general ledger bulan Agustus kosong:\n\n![](https://larona.id/manual/Accounting/GL600_2.png)\n\nPenyebab :\n\nPanjang field gj_accno pada table gl100 tidak sama dengan panjang ca_accno di gl010a\n\n![](https://larona.id/manual/Accounting/GL600_3.png)\n\n![](https://larona.id/manual/Accounting/GL600_4.png)\n\nSolusi\n\nSamakan panjang field gj_accno di gl100a dengan ca_accno di gl010a"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
