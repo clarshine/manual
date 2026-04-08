@@ -1,0 +1,11 @@
+{
+  "category": "Accounting/Sales Order/Delivery Order",
+  "title": "SA530 Delivery Order",
+  "tabs": [
+    {
+      "tab_title": "SA530 Delivery Order",
+      "body": "Program ini digunakan untuk mencatat transaksi pengiriman penjualan saat terjadinya pengiriman barang atas sales order yang sudah dibuat sebelumnya.\n\nUntuk membuat delivery order baru, lakukan:\n\n1. Masukkan no deliver order di kolom delivery order → klik post.\n\n   ![](https://larona.id/manual/Accounting/SA530_2.png)\n\n   Setelah di post, no sales order akan secara otomatis running dari no sebelumnya.\n2. Masukkan no sales order yang ingin dituju → klik post.\n\n   ![](https://larona.id/manual/Accounting/SA530_3.png)\n\n   Setelah di post, detail transaksi atas no sales order akan secara otomatis terisi dan untuk penginputan aktual qty barang yang ingin dikirim bisa di isi di kolom Qty → post.\n3. Jika semua data sudah diisi lengkap, selanjutnya klik post, untuk memposting Delivery Order tersebut, sampai tanda status menjadi @.\n\n   ![](https://larona.id/manual/Accounting/SA530_4.png)\n\nFungsi tombol :\n\nTrxDel \t: \tUntuk menghapus no delivery order\n\nSA530_Post \t: \tUntuk memposting atas data yang diinput\n\nSA530_F7 \t: \tUntuk print atas transaksi delivery order\n\nTrxPrev \t: \tUntuk melihat no delivery order sebelumnya\n\nTrxNext \t: \tUntuk melihat no delivery order selanjutnya\n\n![](https://larona.id/manual/Accounting/SA530_1.png)\n\nJika pada saat membuka menu SA530 muncul pesan seperti diatas, maka artinya panjang dari field SO.no pada pada table sa131a (10 digit) kurang panjang, seharusnya panjang SO.no sama dengan panjang do_noso + do_seqno dilihat dari table sa131a yaitu 12 digit."
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
