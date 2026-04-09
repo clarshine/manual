@@ -1,0 +1,11 @@
+{
+  "category": "Accounting/Accounts Receivable",
+  "title": "AR621 Display AR Invoice detail",
+  "tabs": [
+    {
+      "tab_title": "AR621 Display AR Invoice detail",
+      "body": "### **AR621_Display AR Invoice Detail**\n\nProgram ini digunakan untuk menampilkan perincian tagihan (omset) per item\n\nProgram ini dapat dijalankan melalui :\n\n**Accounts Receivable > Display AR Invoice Detail**\n\n![](https://larona.id/manual/Accounting/AR621_1.png)\n\n![](https://larona.id/manual/Accounting/AR621_2.png)\n\n![](https://larona.id/manual/Accounting/AR621_3.png)"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
