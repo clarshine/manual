@@ -1,0 +1,11 @@
+{
+  "category": "Accounting/Accounts Receivable",
+  "title": "AR408 AR Movement per End Customer",
+  "tabs": [
+    {
+      "tab_title": "AR408 AR Movement per End Customer",
+      "body": "#### **AR408 AR Movement per End Customer**\n\nDigunakan untuk merinci mutasi piutang dari customer (Agen) per pemakai (End User), sehingga dapat diketahui penyerapan produk ke area pemakai. Untuk usaha clearance dapat dipakai untuk merinci jaminan container per customer.\n\nJalankan report ini pada menu Account Receivable → AR Movement per End Customer\n\n![](https://larona.id/manual/Accounting/AR408_1.png)\n\nKeterangan :\n\n**Period** \t:Jangka waktu periode penarikan report Invoice.\n\n**Ageing Type** \t:Untuk mengelompokkan saldo berdasarkan umur piutang yang terdiri dari umur invoice atau umur jatuh tempo.\n\n**Account No.** \t:pilih COA / Account nomor yang ingin di cetak. Kosongkan jika ingin mencetak seluruh **COA**.\n\n**Cust No** \t:Kode customer yang ingin di cetak. Kosongkan jika ingin mencetak seluruh customer.\n\n**Original Currency     :** \t\n\n* **B Base Currency Only** : Menampilkan report dengan nominal mata uang yang sudah di convert ke rupiah.\n* **O Original Currency Only** : Menampilkan report dengan nominal mata uang asli tanpa di convert ke rupiah\n* **Y With Original Currency (both)** : Menampilkan report dengan nominal mata uang asli dan nominal mata uang yang sudah di convert ke rupiah\n* **N No Currency / Amount** : Menampilkan report hanya Currency Amount saja\n\nDetail Begining \t: Diisi : Y jika ingin menampilkan detail begining dari transaksi AR.\n\nDetail Period \t: Diisi : Y jika ingin menampilkan detail period dari transaksi AR.\n\nDetail Invoice \t: Diisi : Y jika ingin menampilkan detail invoice dari transaksi AR.\n\nPrinter's file \t: Nama file yang akan di cetak. Misal : output.pdf / ouput.csv\n\nNOTE : Jika regional Indonesia maka, gunakan ; (titik koma) saat mencetak ke CSV contoh : output.csv; .\n\nSebagai Contoh :\n\n![](https://larona.id/manual/Accounting/AR408_2.png)"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
