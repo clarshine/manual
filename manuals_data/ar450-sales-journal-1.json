@@ -2,10 +2,10 @@
   "tabs": [
     {
       "body": "## **AR460 – AR Summary Report**\n\nReport ini digunakan untuk melakukan kontrol antara pencatatan invoice dengan akun GL piutang usaha .\n\n![](https://larona.id/manual/Accounting/AR460_1.png)\n\nTransaction date diisi periode report yang mau ditarik.\n\nContoh hasil:\n\n![](https://larona.id/manual/Accounting/AR460_2.png)\n\nKolom Gr menunjukkan kode-kode trx type atas AR invoice.\n\nKolom A menunjukkan total invoice dan payment yang tercatat di AR invoice.\n\nKolom B menunjukkan total invoice dan payment yang tercatat di GL.\n\nNilai kolom A dan B harus balance.\n\n##### **Jika tidak balance, bisa disebabkan karena:**\n\n1. Ada penambahan / perubahan transaksi pada AR invoice tapi belum menjalankan sales journal ulang.\n\n   Bisa dilihat dari contoh report bulan Oktober diatas, kolom GL inv seharusnya sama dengan kolom Invoice tapi di report tsb masih kosong, ini berarti sales journal bulan Oktober belum dijalankan.\n\n   Solusinya jalankan sales journal bulan yang bersangkutan:\n\n   ![](https://larona.id/manual/Accounting/AR460_3.png)\n\n   Hasil report setelah sales journal:\n\n   ![](https://larona.id/manual/Accounting/AR460_4.png)\n2. Ada transaksi atas akun piutang di luar AR invoice\n\n   ![](https://larona.id/manual/Accounting/AR460_5.png)\n\n   Pada contoh report diatas terdapat selisih saldo awal akun 12.999 antara AR invoice dan GL sebesar 30.000.000.\n\n   Setelah dicek ternyata pada bulan sebelumnya terdapat transaksi cash bank terkait akun tsb selain pelunasan invoice.\n\n   ![](https://larona.id/manual/Accounting/AR460_6.png)\n\n   Pastikan kembali pencatatan akun yang dipilih sudah benar.\n\n   Sebaiknya akun untuk pencatatan piutang di AR invoice tidak dicampur dengan transaksi lain.",
-      "tab_title": "AR Invoice per No. Report"
+      "tab_title": "AR Summary Report"
     }
   ],
   "category": "Accounting/Accounts Receivable",
-  "title": "AR450 Sales Journal",
+  "title": "AR460 AR Summary Report",
   "last_edited_by": "Wawan"
 }
