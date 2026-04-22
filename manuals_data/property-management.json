@@ -19,6 +19,10 @@
     {
       "tab_title": "Display AR Invoice",
       "body": "### **Display AR Invoice(AR620, AR621, AR520)**\n\nSetelah membuat invoice, Anda dapat memeriksa invoice yang telah Anda buat tadi melalui 3 cara berikut.\n\nLangkah-langkah:\n\n#### **Cara 1(Melalui AR620)**\n\n1. Buka AR > Display AR Invoice.\n2. Di sini, Anda bisa melihat daftar invoice yang telah dibuat.\n\n#### **Cara 2(Melalui AR621)**\n\n1. Buka AR > Display AR Invoice Detail.\n2. Anda dapat melihat detail lengkap dari setiap invoice yang telah dibuat.\n\n#### **Cara 3(Melalui AR520)**\n\n1. Buka AR > AR Invoice.\n2. Copas no. trx yang ingin diperiksa lalu klik tombol read.\n3. Anda akan melihat rincian lengkap per invoice."
+    },
+    {
+      "tab_title": "Print Invoice",
+      "body": "### **Print Invoice SC/EW**\n\nAnda bisa langsung mencetak semua invoice dengan cara berikut.\n\n#### **Langkah-langkah:**\n\n1. Buka AR > Building Master File.\n2. Klik tombol Print.\n3. Lakukan pengaturan print seperti berikut.\n\n   ![](https://larona.id/manual/Accounting/PM_PRINT_INVOICE_1.png)\n\n   Penjelasan:\n\n   * Period:\tdiisi dengan periode dan jenis invoice yang akan dicetak.\n   * Formatnya adalah periode+jenis(1 atau 2). 1 untuk service charge dan 2 untuk electrical & water.\n   * Contoh:\n   * 24101 mencetak invoice service charge periode Oktober 2024.\n   * 24092 mencetak invoice electrical & water periode September 2024.\n   * Prop.no.:\tJika dikosongkan maka otomatis mencetak invoice untuk semua prop.no.\n   * Email:\tdiisi dengan Y jika ingin kirim invoice ke email\n   * Subject:\tdiisi dengan subject dari email.\n   * Lpx. Option:\tdiisi dengan format Lpx invoice yang akan dicetak.\n   * Printer’s file:\tdiisi dengan nama file dari invoice yang akan dicetak.\n4. Klik tombol Print untuk mencetak invoice SC/EW."
     }
   ],
   "category": "Accounting/Accounts Receivable",
