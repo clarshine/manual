@@ -27,6 +27,10 @@
     {
       "tab_title": "Email List",
       "body": "### **Kirim Invoice SC/EW Melalui Email**\n\nSend Email\n\n##### **Bila Anda ingin mengirim invoice melalui email kepada beberapa tenant tertentu maka:**\n\n1. Pastikan Customer Master File telah diisi dengan alamat email yang benar.\n2. Lakukan pengaturan print mengikuti contoh berikut.\n\n   ![](https://larona.id/manual/Accounting/PM_EMAIL_LIST_1.png)\n3. Klik tombol Print.\n\n\n\n1. Buka AR > Email List.\n\n   ![](https://larona.id/manual/Accounting/PM_EMAIL_LIST_2.png)\n\n   Disini Anda dapat melihat list invoice yang siap dikirim ke email tenant.\n2. Klik Send Email.\n\n   ![](https://larona.id/manual/Accounting/PM_EMAIL_LIST_3.png)\n3. Lakukan pengaturan print mengikuti contoh berikut.\n\n   * Penjelasan:\n   * Key. No:\tInvoice yang ingin dikirim\n   * Resend:\tsecara default 1 key no hanya dapat diemail 1 kali\n\n     isi dengan Y apabila key no yang Anda pilih sudah pernah dikirimi email sebelumnya dan Anda ingin mengirim ulang email\n   * Continue:\tisi dengan Y\n4. Klik tombol Ok.\n\n##### **Note:**\n\n##### **Harap diperhatikan message yang Anda terima setelahnya.**\n\n![](https://larona.id/manual/Accounting/PM_EMAIL_LIST_4.png)\n\n<div class=\"callout callout-warning\"><h4>Perhatian</h4><p>“0 eMail has been send” mengindikasikan email Anda tidak terkirim. Hal ini bisa terjadi apabila:<br>1. Invoice yang ingin Anda kirim belum masuk ke Email List, pastikan sebelumnya Anda sudah mengeprint invoice yang Anda inginkan dengan pengaturan Email = Y.<br>2. Anda sudah pernah mengirim invoice(keyno) yang sama lebih dari 1 kali. Atur Resend = Y supaya invoice terkirim.<br><br></p></div>"
+    },
+    {
+      "body": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/31pFr_I_71o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "tab_title": "Video Tutorial"
     }
   ],
   "category": "Accounting/Accounts Receivable",
