@@ -1,0 +1,11 @@
+{
+  "title": "AP460 AP Summary Report",
+  "category": "Accounting/Accounts Payable",
+  "tabs": [
+    {
+      "body": "### **AP460 – AP Summary Report**\n\nReport ini digunakan untuk melakukan kontrol antara pencatatan invoice dengan akun GL utang usaha.\n\n![](https://larona.id/manual/Accounting/AP460_1.png)\n\nTransaction date diisi periode report yang mau ditarik\n\nContoh hasil:\n\n![](https://larona.id/manual/Accounting/AP460_2.png)\n\n* Kolom Gr menunjukkan kode-kode trx type atas AP invoice.\n* Kolom A menunjukkan total invoice dan payment yang tercatat di AP invoice.\n* Kolom B menunjukkan total invoice dan payment yang tercatat di GL.\n* Nilai kolom A dan B harus balance.\n\nJika tidak balance, bisa disebabkan karena:\n\n* Ada penambahan / perubahan transaksi pada AP invoice tapi belum menjalankan purchase journal ulang.\n* Bisa dilihat dari contoh diatas, total invoice kolom A lebih besar daripada GL inv di kolom B dengan selisih 700.000. Ini berarti ada AP invoice yang belum tercatat di GL.\n\nSolusinya jalankan puchase journal bulan yang bersangkutan:\n\n![](https://larona.id/manual/Accounting/AP460_3.png)\n\nHasil report setelah purchase journal:\n\n![](https://larona.id/manual/Accounting/AP460_4.png)",
+      "tab_title": "AP460 AP Summary Report"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
