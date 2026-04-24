@@ -1,0 +1,11 @@
+{
+  "title": "AP411 Paid AP Invoices",
+  "category": "Accounting/Accounts Payable",
+  "tabs": [
+    {
+      "tab_title": "AP411 Paid AP Invoices",
+      "body": "### **AP411 Paid AP Invoice Report**\n\nProgram ini digunakan untuk membuat report yang berisi informasi transaksi-transaksi AP yang sudah lunas dibayar ke supplier\n\nProgram terdapat pada :\n\n#### **Account Payable > Paid AP Invoice**\n\n![](https://larona.id/manual/Accounting/AP411_1.png)\n\nKeterangan :\n\n* Period : Range tgl AP invoice yang mau ditarik\n* Supplier No : Pilihan untuk menarik data supplier tertentu, kosongkan jika ingin tarik semua\n* Qty : Pilihan untuk menampilkan qty per AP Invoice\n\n  * \"Y\" Jika ingin menampilkan qty\n  * \"N\" Jika tidak ingin menampilkan qty\n* Detail Invoice No : Pilihan untuk menampilkan detail no transaksi\n\n  * \"Y\" Menampilkan detail no AP invoice per supplier\n  * \"N\" Hanya menampilkan total per supplier\n* Detail Payment : Pilihan untuk menampilkan detail pembayaran\n\n  * \"Y\" Jika ingin menampilkan qty\n  * \"N\" Jika tidak ingin menampilkan qty\n* Printer's File : Nama file yang mau dicetak, bisa dalam .pdf / .csv\n\nContoh hasil report dengan detail invoice dan payment diisi “Y” :\n\n![](https://larona.id/manual/Accounting/AP411_2.png)"
+    }
+  ],
+  "last_edited_by": "Wawan"
+}
